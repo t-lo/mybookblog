@@ -15,7 +15,11 @@ enableGitInfo = true
   startLevel = 1
 
 [menu]
-[[menu.before]]
+ [[menu.before]]
+  name = "RSS feed"
+  url = "/index.xml"
+  weight = 9
+ [[menu.before]]
   name = "About"
   url = "/about"
   weight = 10
